@@ -1,0 +1,14 @@
+<div class="slides">
+    <div class="slide" [ngStyle]="{ 'background-image': 'url(' + slides[currentSlide].url + ')' }">
+        <div id="indicators">
+            <div 
+                class="indicator" 
+                *ngFor="let slide of slides; let i = index">
+            
+            </div>
+        </div>
+    </div>
+
+    <button (click)="next()">Next</button>
+    <button (click)="prev()">Previous</button>
+</div>
