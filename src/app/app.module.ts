@@ -10,6 +10,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { ContainerComponent } from './container/container.component';
+import { PhotoComponent } from './photo/photo.component';
+import { ArchitectureComponent } from './architecture/architecture.component';
+import { InstitutionComponent } from './institution/institution.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ContainerComponent } from './container/container.component';
     HomeComponent,
     HistoryComponent,
     ImageSliderComponent,
-    ContainerComponent
+    ContainerComponent,
+    PhotoComponent,
+    ArchitectureComponent,
+    InstitutionComponent
   ],
   imports: [
     BrowserModule,

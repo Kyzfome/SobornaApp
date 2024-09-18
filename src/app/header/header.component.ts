@@ -7,4 +7,9 @@ import { BootstrapOptions } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  public link: string = 'Головна';
+
+  public setLink(link: string) {
+    this.link = link;
+  }
 }
