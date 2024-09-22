@@ -3,8 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-history',
   templateUrl: './history.component.html',
-  styleUrl: './history.component.scss'
+  styleUrl: './history.component.scss',
 })
 export class HistoryComponent {
-
+  items: any[] = [
+    {
+      url: '../../assets/images/мури 1.png',
+      description:
+        'Це комплекс оборонних і монастирських споруд XVII століття у Вінниці. Складався з будівель та стін єзуїтського монастиря, єзуїтського костелу, колегіуму та конвікту (гуртожитки), а також домініканського монастиря і домініканського костелу. Будівлі були оточені потужними кріпосними стінами та бойовими вежами. Мури зведені у XVII столітті монахами-єзуїтами, ставши головною оборонною спорудою міста. Пізніше поруч були прибудовані домініканський монастир з костелом.',
+    },
+  ];
 }
