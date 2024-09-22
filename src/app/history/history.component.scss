@@ -46,5 +46,10 @@
 @media screen and (max-width: 768px) {
   .history-grid {
     grid-template-columns: 1fr;
+    padding: 0 20px;
+
+    & p {
+      font-size: 18px;
+    }
   }
 }
