@@ -1,23 +1,33 @@
 <div class="container w-100" *ngFor="let item of items; let i = index">
-    <div *ngIf="i % 2 == 0" class="d-flex gap-3 align-items-center mb-3">
-        <div class="image-container w-100">
-            <img [src]="item.url" alt="photo">
-        </div>
-        <div [ngClass]="{'dark-back': items.length > 1}" class="description w-100">
-            <p>{{ item.description }}</p>
-            <p *ngIf="item.description2">{{ item.description2 }}</p>
-        </div>
+  <div *ngIf="i % 2 == 0" class="d-flex gap-3 align-items-center mb-3">
+    <div class="image-container w-100">
+      <img [src]="item.url" alt="photo" />
     </div>
-
-    <div *ngIf="i % 2 != 0" class="d-flex gap-3 align-items-center mb-3">
-        <div [ngClass]="{'light-back': items.length > 1}" class="description w-100">
-            <p>{{ item.description }}</p>
-            <p *ngIf="item.description2">{{ item.description2 }}</p>
-        </div>
-        <div class="image-container w-100">
-            <img [src]="item.url" alt="photo">
-        </div>
+    <div
+      [ngClass]="{ 'dark-back': items.length > 1 }"
+      class="description w-100"
+    >
+      <p>{{ item.description }}</p>
+      <p *ngIf="item.description2">{{ item.description2 }}</p>
+      <p *ngIf="item.description3">{{ item.description3 }}</p>
+      <p *ngIf="item.description4">{{ item.description4 }}</p>
     </div>
+  </div>
 
-    <hr *ngIf="items.length > 1" class="w-100 mb-4">
+  <div *ngIf="i % 2 != 0" class="d-flex gap-3 align-items-center mb-3">
+    <div
+      [ngClass]="{ 'light-back': items.length > 1 }"
+      class="description w-100"
+    >
+      <p>{{ item.description }}</p>
+      <p *ngIf="item.description2">{{ item.description2 }}</p>
+      <p *ngIf="item.description3">{{ item.description3 }}</p>
+      <p *ngIf="item.description4">{{ item.description4 }}</p>
+    </div>
+    <div class="image-container w-100">
+      <img [src]="item.url" alt="photo" />
+    </div>
+  </div>
+
+  <hr *ngIf="items.length > 1" class="w-100 mb-4" />
 </div>
