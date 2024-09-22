@@ -74,7 +74,8 @@ body {
 .burger-button {
   width: 70px;
   height: 25px;
-  display: none;
+  display: flex;
+  opacity: 0;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
@@ -103,10 +104,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .burger-button {
-    display: flex;
-  }
-
-  .logo {
-    max-width: 25px;
+    opacity: 1;
   }
 }
+
