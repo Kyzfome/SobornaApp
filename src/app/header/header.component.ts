@@ -8,6 +8,11 @@ import { BootstrapOptions } from '@angular/core';
 })
 export class HeaderComponent {
   public link: string = 'Головна';
+  isMenuOpen: boolean = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 
   public setLink(link: string) {
     this.link = link;

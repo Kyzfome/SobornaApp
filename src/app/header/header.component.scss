@@ -37,6 +37,12 @@ body {
       height: 100%;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      max-width: 250px;
+    }
+  }
 }
 
 .links {
@@ -57,5 +63,51 @@ body {
         }
       }
     }
+
+    @media screen and (max-width: 768px) {
+      li {
+        display: none;
+      }
+    }
+  }
+
+  & button {
+    color: black;
+  }
+}
+
+.burger-button {
+  width: 70px;
+  height: 25px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+
+  .burger-line {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transition: all 0.3s ease;
+  }
+
+  &.active {
+    .burger-line:nth-child(1) {
+      transform: translateY(10px) rotate(45deg);
+    }
+
+    .burger-line:nth-child(2) {
+      opacity: 0;
+    }
+
+    .burger-line:nth-child(3) {
+      transform: translateY(-10px) rotate(-45deg);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .burger-button {
+    display: flex;
   }
 }
