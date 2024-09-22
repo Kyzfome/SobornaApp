@@ -21,4 +21,26 @@
     <h2>Споруди мурів</h2>
     <app-container [items]="historyItems"></app-container>
   </div>
+
+  <div class="w-100 wall-container">
+    <h2>Вежі та стіни</h2>
+    <app-container [items]="wallItems"></app-container>
+  </div>
+
+  <div
+    class="savoi-container d-flex flex-column align-items-center gap-3 w-100"
+  >
+    <h2>Готель "Савой"</h2>
+    <p>
+      Великий внесок у створення сучасного вигляду вулиці на початку 20 століття
+      зробив архітектор Григорій Григорович Артинов (1860-1919), перший
+      архітектор Вінниці, цивільний інженер. Всього у місті збереглося 30
+      будинків, створених за його проектами: готель "Україна" (колишній готель
+      "Савой", будівля 1912 р.), міський театр (1910 р., частково
+      перебудовувався у 1948 р.), приміщення 2-ї школи (1900 р., колишня жіноча
+      міністерська гімназія).
+    </p>
+    <img src="../../assets/images/city.png" alt="city" />
+  </div>
+  <app-container class="mt-5" [items]="sovoiItems"></app-container>
 </div>

@@ -25,3 +25,20 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.wall-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.savoi-container {
+  background-color: #d0f4f0;
+}
+
+.savoi-container p {
+  font-size: 24px;
+  max-width: 1200px;
+}
