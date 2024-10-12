@@ -1,65 +1,76 @@
 .history-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    width: 100%;
-    max-width: 1200px;
-    align-items: start;
-  
-    & p {
-      font-size: 24px;
-    }
-  }
-  
-  .grid-item {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-  }
-  
-  .buildings-history-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d0f4f0;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .wall-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  align-items: start;
 
-  .savoy-container {
-    background-color: #d0f4f0;
+  & p {
+    font-size: 24px;
+  }
+}
+
+.grid-item {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.buildings-history-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0f4f0;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wall-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.savoy-container {
+  background-color: #d0f4f0;
+}
+
+.city-container p {
+  font-size: 24px;
+  max-width: 1200px;
+}
+
+.text {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.text p {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .history-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+
+    & p {
+      font-size: 18px;
+    }
   }
 
   .city-container p {
-    font-size: 24px;
-    max-width: 1200px;
+    font-size: 18px;
   }
 
   .text {
-    margin-top: 20px;
-    width: 60%;
+    width: 90%;
   }
 
   .text p {
-    font-size: 24px;
+    font-size: 18px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .history-grid {
-      grid-template-columns: 1fr;
-      padding: 0 20px;
-  
-      & p {
-        font-size: 18px;
-      }
-    }
-  }
-  
+}
