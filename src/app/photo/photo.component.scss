@@ -1,18 +1,12 @@
-.card {
-  border: none;
-  transition: transform 0.3s ease;
+.photo-container img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
 }
 
-.card:hover {
-  transform: scale(1.05);
-}
-
-.card-img-top {
-  height: 400px;
-  object-fit: contain;
-}
-
-.text-center {
-  font-weight: bold;
-  font-size: 1.1rem;
+.photo-container img:hover {
+  transform: scale(1.05); 
 }

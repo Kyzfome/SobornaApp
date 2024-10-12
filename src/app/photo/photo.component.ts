@@ -6,30 +6,19 @@ import { Component } from '@angular/core';
   styleUrl: './photo.component.scss',
 })
 export class PhotoComponent {
-  images = [
-    { name: 'Арка', url: 'assets/images/arka.jpg' },
-    { name: 'Artwork', url: 'assets/images/Artwork.png' },
-    { name: 'Do', url: 'assets/images/do.png' },
-    {
-      name: 'Hotel France Vinnystia Exterior',
-      url: 'assets/images/Hotel-France-Vinnytsia-Exterior.jpg',
-    },
-    { name: 'House', url: 'assets/images/house.png' },
-    { name: 'Logo', url: 'assets/images/logo.png' },
-    { name: 'MA Office', url: 'assets/images/ma-office.png' },
-    { name: 'Man', url: 'assets/images/man.png' },
-    { name: 'Собор', url: 'assets/images/maxresdefault.jpg' },
-    { name: 'Мур 1', url: 'assets/images/myr_1.png' },
-    { name: 'Мур 2', url: 'assets/images/myr_2.png' },
-    { name: 'Names', url: 'assets/images/names.png' },
-    { name: 'Photo', url: 'assets/images/photo.png' },
-    { name: 'Rada', url: 'assets/images/rada.png' },
-    { name: 'Soborna 1', url: 'assets/images/soborna1.png' },
-    { name: 'Soborna 2', url: 'assets/images/soborna2.png' },
-    { name: 'Soborna 3', url: 'assets/images/soborna3.png' },
-    { name: 'Tram', url: 'assets/images/tram.png' },
-    { name: 'Tram 1', url: 'assets/images/tram1.png' },
-    { name: 'Vinnytsia Oblrada', url: 'assets/images/vinnytsia_oblrada.jpg' },
-    { name: 'Муры', url: 'assets/images/мури 1.png' },
+  photos1 = [
+    {url: '../../assets/images/photo/photo1.png'},
+    {url: '../../assets/images/photo/photo2.png'},
+    {url: '../../assets/images/photo/photo3.png'},
+    {url: '../../assets/images/photo/photo4.png'},
+    {url: '../../assets/images/photo/photo5.png'},
+  ];
+
+  photos2 = [
+    {url: '../../assets/images/photo/photo6.png'},
+    {url: '../../assets/images/photo/photo7.png'},
+    {url: '../../assets/images/photo/photo8.png'},
+    {url: '../../assets/images/photo/photo9.png'},
+    {url: '../../assets/images/photo/photo10.png'},
   ];
 }
