@@ -1,0 +1,28 @@
+.text {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.text p {
+  font-size: 24px;
+}
+
+.institution-container {
+  background-color: #d0f4f0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .text {
+       width: 90%;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .photo-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+}

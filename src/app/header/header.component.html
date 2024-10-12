@@ -19,9 +19,6 @@
       <ul class="d-flex w-100 gap-3">
         <li><a routerLink="/" (click)="setLink('Головна')">Головна</a></li>
         <li>
-          <a routerLink="/history" (click)="setLink('Історія')">Історія</a>
-        </li>
-        <li>
           <a
             routerLink="/architecture"
             (click)="setLink('Архітектурні пам\'ятки')"
@@ -46,14 +43,6 @@
           routerLink="/"
           (click)="setLink('Головна'); toggleMenu()"
           >Головна</a
-        >
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link text-white"
-          routerLink="/history"
-          (click)="setLink('Історія'); toggleMenu()"
-          >Історія</a
         >
       </li>
       <li class="nav-item">
