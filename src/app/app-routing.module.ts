@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { PhotoComponent } from './photo/photo.component';
-import { ArchitectureComponent } from './architecture/architecture.component';
-import { InstitutionComponent } from './institution/institution.component';
+import { HomeComponent } from './components/home/home.component';
+import { PhotoComponent } from './components/photo/photo.component';
+import { ArchitectureComponent } from './components/architecture/architecture.component';
+import { InstitutionComponent } from './components/institution/institution.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'photo', component: PhotoComponent},
-  {path: 'architecture', component: ArchitectureComponent},
-  {path: 'institution', component: InstitutionComponent}
+  { path: '', component: HomeComponent },
+  { path: 'photo', component: PhotoComponent },
+  { path: 'architecture', component: ArchitectureComponent },
+  { path: 'institution', component: InstitutionComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

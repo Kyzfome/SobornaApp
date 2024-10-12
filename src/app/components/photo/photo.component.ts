@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { PhotoViewerComponent } from '../components/photo-viewer/photo-viewer.component';
+import { PhotoViewerComponent } from '../photo-viewer/photo-viewer.component';
 
 @Component({
   selector: 'app-photo',
@@ -29,7 +29,7 @@ export class PhotoComponent {
   openPhotoViewer(photoUrl: string): void {
     this.dialog.open(PhotoViewerComponent, {
       data: { photoUrl },
-      panelClass: 'full-screen-modal',
+      panelClass: 'full-screen-modal'
     });
   }
 }

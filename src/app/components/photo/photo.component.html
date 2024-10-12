@@ -3,13 +3,13 @@
   <div class="container justify-content-center w-100 d-flex gap-3">
     <div class="photo-container d-flex flex-column w-100 gap-3">
       <ng-container *ngFor="let photo of photos1">
-        <img [src]="photo.url" alt="photo"/>
+        <img [src]="photo.url" alt="photo" (click)="openPhotoViewer(photo.url)"/>
       </ng-container>
     </div>
 
     <div class="photo-container d-flex flex-column w-100 gap-3">
       <ng-container *ngFor="let photo of photos2">
-        <img [src]="photo.url" alt="photo"/>
+        <img [src]="photo.url" alt="photo" (click)="openPhotoViewer(photo.url)"/>
       </ng-container>
     </div>
   </div>
