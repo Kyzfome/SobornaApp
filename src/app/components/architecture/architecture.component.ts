@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ArchitectureComponent {
   items: any[] = [
     {
-      url: '../../assets/images/architecture/мури 1.png',
+      url: '../../assets/images/architecture/мури 1.webp',
       description:
         'Це комплекс оборонних і монастирських споруд XVII століття у Вінниці. Складався з будівель та стін єзуїтського монастиря, єзуїтського костелу, колегіуму та конвікту (гуртожитки), а також домініканського монастиря і домініканського костелу. Будівлі були оточені потужними кріпосними стінами та бойовими вежами. Мури зведені у XVII столітті монахами-єзуїтами, ставши головною оборонною спорудою міста. Пізніше поруч були прибудовані домініканський монастир з костелом.',
     },
@@ -16,7 +16,7 @@ export class ArchitectureComponent {
 
   historyItems: any[] = [
     {
-      url: '../../assets/images/architecture/do.png',
+      url: '../../assets/images/architecture/do.webp',
       description:
         'Великий костел, колегіум і конвікт (гуртожиток) монахи-єзуїти почали зводити в 1610.',
       description2:
@@ -30,7 +30,7 @@ export class ArchitectureComponent {
 
   wallItems: any[] = [
     {
-      url: '../../assets/images/architecture/man.png',
+      url: '../../assets/images/architecture/man.webp',
       description:
         'Вежі та стіни були побудовані єзуїтами ще до початку будівництва домініканського костелу в 1617 році. Стіни призначалися для захисту від набігів татар і запорожців. Значна частина стін з вежами, які оточували єзуїтський і домініканський монастирі, зруйнована. Збереглася лише кутова південно-західна башта з південною і частиною західної стін. ',
       description2:
@@ -40,7 +40,7 @@ export class ArchitectureComponent {
 
   sovoiItems: any[] = [
     {
-      url: '../../assets/images/architecture/savoy.png',
+      url: '../../assets/images/architecture/savoy.webp',
       description:
         'Готель «Савой» — будинок у Вінниці на центральній вулиці Соборній, пам`ятка архітектури місцевого значення, один з неофіційних символів та ідентифікаторів міста.',
     },

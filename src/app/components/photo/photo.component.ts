@@ -11,19 +11,19 @@ export class PhotoComponent {
   constructor(public dialog: MatDialog) {}
 
   photos1 = [
-    { url: '../../assets/images/photo/photo1.png' },
-    { url: '../../assets/images/photo/photo2.png' },
-    { url: '../../assets/images/photo/photo3.png' },
-    { url: '../../assets/images/photo/photo4.png' },
-    { url: '../../assets/images/photo/photo5.png' },
+    { url: '../../assets/images/photo/photo1.webp' },
+    { url: '../../assets/images/photo/photo2.webp' },
+    { url: '../../assets/images/photo/photo3.webp' },
+    { url: '../../assets/images/photo/photo4.webp' },
+    { url: '../../assets/images/photo/photo5.webp' },
   ];
 
   photos2 = [
-    { url: '../../assets/images/photo/photo6.png' },
-    { url: '../../assets/images/photo/photo7.png' },
-    { url: '../../assets/images/photo/photo8.png' },
-    { url: '../../assets/images/photo/photo9.png' },
-    { url: '../../assets/images/photo/photo10.png' },
+    { url: '../../assets/images/photo/photo6.webp' },
+    { url: '../../assets/images/photo/photo7.webp' },
+    { url: '../../assets/images/photo/photo8.webp' },
+    { url: '../../assets/images/photo/photo9.webp' },
+    { url: '../../assets/images/photo/photo10.webp' },
   ];
 
   openPhotoViewer(photoUrl: string): void {
