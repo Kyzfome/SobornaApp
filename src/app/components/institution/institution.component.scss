@@ -11,18 +11,35 @@
   background-color: #d0f4f0;
 }
 
+.museum {
+  background-color: #d0f4f0;
+
+  p {
+    font-size: 24px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .text {
+    width: 90%;
+  }
 
-    .text {
-       width: 90%;
-    }
+  .text p {
+    font-size: 18px;
+  }
 
-    .text p {
-        font-size: 18px;
-    }
+  .photo-container {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-    .photo-container{
-        flex-direction: column;
-        padding: 20px;
+  .museum-container {
+    flex-direction: column;
+  }
+
+  .museum {
+    p {
+      font-size: 18px;
     }
+  }
 }
